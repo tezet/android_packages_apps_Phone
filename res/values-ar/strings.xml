@@ -289,6 +289,15 @@
     <string name="enable_disable_multi_category" msgid="626771003122899280">"متعددة الفئات"</string>
     <string name="multi_category_enable" msgid="1179299804641721768">"تم تمكين المتعددة الفئات"</string>
     <string name="multi_category_disable" msgid="880104702904139505">"تم تعطيل متعددة الفئات"</string>
+    <string name="gsm_umts_network_preferences_title" msgid="4834419333547382436">"تفضيلات شبكة نظام GSM/النظام العالمي لاتصالات الجوال عن بعد (UMTS)"</string>
+    <string name="gsm_umts_network_preferneces_summary" msgid="1905018644156819521">"لم ينفذ بعد!"</string>
+    <string name="gsm_umts_network_preferences_dialogtitle" msgid="6356332580813229898">"تفضيلات شبكة نظام GSM/النظام العالمي لاتصالات الجوال عن بعد (UMTS)"</string>
+  <string-array name="gsm_umts_network_preferences_choices">
+    <item msgid="935612021902787683">"GSM/WCDMA (وضع تلقائي)"</item>
+    <item msgid="8912042051809329533">"WCDMA فقط"</item>
+    <item msgid="8776934131146642662">"نظام GSM فقط"</item>
+    <item msgid="4684679567848300935">"GSM/WCDA ‏(WCDMA المفضل)"</item>
+  </string-array>
     <string name="prefer_2g" msgid="8442550937280449639">"استخدام شبكات 2G فقط"</string>
     <string name="prefer_2g_summary" msgid="1976491403210690759">"لحفظ البطارية"</string>
     <string name="cdma_system_select_title" msgid="5757657769327732833">"تحديد النظام"</string>
@@ -299,15 +308,19 @@
     <item msgid="1205664026446156265">"تلقائي"</item>
   </string-array>
     <string name="cdma_subscription_title" msgid="1162564010076763284">"اشتراك CDMA"</string>
+    <string name="cdma_network_preferences_title" msgid="41193174429510391">"تفضيلات شبكة CDMA"</string>
+    <string name="cdma_network_preferneces_summary" msgid="3524451924935793338">"لم ينفذ بعد!"</string>
+    <string name="cdma_network_preferences_dialogtitle" msgid="4548860809290455653">"تفضيلات شبكة CDMA"</string>
+  <string-array name="cdma_network_preferences_choices">
+    <item msgid="3711054371631487248">"CDMA/EvDo"</item>
+    <item msgid="6143696847467859795">"CDMA فقط"</item>
+    <item msgid="2683555124647197574">"EvDo فقط"</item>
+  </string-array>
     <string name="cdma_subscription_summary" msgid="2530890766115781140">"تغيير بين RUIM/SIM وNV"</string>
     <string name="cdma_subscription_dialogtitle" msgid="2699527950523333110">"الاشتراك"</string>
   <string-array name="cdma_subscription_choices">
     <item msgid="2258014151300708431">"بطاقة RUIM/SIM"</item>
     <item msgid="5127722015571873880">"NV"</item>
-  </string-array>
-  <string-array name="cdma_subscription_values">
-    <item msgid="7494167883478914080">"0"</item>
-    <item msgid="6043847456049107742">"1"</item>
   </string-array>
     <string name="cdma_activate_device" msgid="3793805892364814518">"تنشيط الجهاز"</string>
     <string name="cdma_lte_data_service" msgid="4255018217292548962">"إعداد خدمة البيانات"</string>

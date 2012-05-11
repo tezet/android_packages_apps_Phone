@@ -249,15 +249,6 @@
     <item msgid="1933212028684529632">"Kinesisk"</item>
     <item msgid="1908428006803639064">"Hebraisk"</item>
   </string-array>
-  <string-array name="list_language_values">
-    <item msgid="1804908636436467150">"1"</item>
-    <item msgid="289708030346890334">"2"</item>
-    <item msgid="1121469729692402684">"3"</item>
-    <item msgid="2614093115912897722">"4"</item>
-    <item msgid="2411164639857960614">"5"</item>
-    <item msgid="5884448729274543324">"6"</item>
-    <item msgid="5511864807618312598">"7"</item>
-  </string-array>
     <string name="list_language_dtitle" msgid="5442908726538951934">"Sprog"</string>
     <string name="enable_disable_local_weather" msgid="986967454867219114">"Lokalt vejr"</string>
     <string name="local_weather_enable" msgid="6199315114382448922">"Lokalt vejr er aktiveret"</string>
@@ -295,6 +286,15 @@
     <string name="enable_disable_multi_category" msgid="626771003122899280">"Flere kategorier"</string>
     <string name="multi_category_enable" msgid="1179299804641721768">"Flere kategorier er aktiveret"</string>
     <string name="multi_category_disable" msgid="880104702904139505">"Flere kategorier er deaktiveret"</string>
+    <string name="gsm_umts_network_preferences_title" msgid="4834419333547382436">"GSM-/UMTS-netværkspræferencer"</string>
+    <string name="gsm_umts_network_preferneces_summary" msgid="1905018644156819521">"Ikke implementeret endnu!"</string>
+    <string name="gsm_umts_network_preferences_dialogtitle" msgid="6356332580813229898">"GSM-/UMTS-netværkspræferencer"</string>
+  <string-array name="gsm_umts_network_preferences_choices">
+    <item msgid="935612021902787683">"GSM/WCDMA (automatisk tilstand)"</item>
+    <item msgid="8912042051809329533">"Kun WCDMA"</item>
+    <item msgid="8776934131146642662">"Kun GSM"</item>
+    <item msgid="4684679567848300935">"GSM/WCDA (WCDMA foretrukken)"</item>
+  </string-array>
     <string name="prefer_2g" msgid="8442550937280449639">"Brug kun 2G-netværk"</string>
     <string name="prefer_2g_summary" msgid="1976491403210690759">"Spar på batteriet"</string>
     <string name="cdma_system_select_title" msgid="5757657769327732833">"Vælg system"</string>
@@ -305,6 +305,14 @@
     <item msgid="1205664026446156265">"Automatisk"</item>
   </string-array>
     <string name="cdma_subscription_title" msgid="1162564010076763284">"CDMA-abonnement"</string>
+    <string name="cdma_network_preferences_title" msgid="41193174429510391">"CDMA-netværkspræferencer"</string>
+    <string name="cdma_network_preferneces_summary" msgid="3524451924935793338">"Ikke implementeret endnu!"</string>
+    <string name="cdma_network_preferences_dialogtitle" msgid="4548860809290455653">"CDMA-netværkspræferencer"</string>
+  <string-array name="cdma_network_preferences_choices">
+    <item msgid="3711054371631487248">"CDMA/EvDo"</item>
+    <item msgid="6143696847467859795">"Kun CDMA"</item>
+    <item msgid="2683555124647197574">"Kun EvDo"</item>
+  </string-array>
     <string name="cdma_subscription_summary" msgid="2530890766115781140">"Skift mellem RUIM/SIM og NV"</string>
     <string name="cdma_subscription_dialogtitle" msgid="2699527950523333110">"abonnement"</string>
   <string-array name="cdma_subscription_choices">

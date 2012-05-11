@@ -243,15 +243,6 @@
     <item msgid="1933212028684529632">"סינית"</item>
     <item msgid="1908428006803639064">"עברית"</item>
   </string-array>
-  <string-array name="list_language_values">
-    <item msgid="1804908636436467150">"1"</item>
-    <item msgid="289708030346890334">"2"</item>
-    <item msgid="1121469729692402684">"3"</item>
-    <item msgid="2614093115912897722">"4"</item>
-    <item msgid="2411164639857960614">"5"</item>
-    <item msgid="5884448729274543324">"6"</item>
-    <item msgid="5511864807618312598">"7"</item>
-  </string-array>
     <string name="list_language_dtitle" msgid="5442908726538951934">"שפות"</string>
     <string name="enable_disable_local_weather" msgid="986967454867219114">"מזג אוויר מקומי"</string>
     <string name="local_weather_enable" msgid="6199315114382448922">"מזג אוויר מקומי מופעל"</string>
@@ -289,6 +280,15 @@
     <string name="enable_disable_multi_category" msgid="626771003122899280">"ריבוי קטגוריות"</string>
     <string name="multi_category_enable" msgid="1179299804641721768">"ריבוי קטגוריות מופעל"</string>
     <string name="multi_category_disable" msgid="880104702904139505">"ריבוי קטגוריות מושבת"</string>
+    <string name="gsm_umts_network_preferences_title" msgid="4834419333547382436">"העדפות רשת GSM/UMTS"</string>
+    <string name="gsm_umts_network_preferneces_summary" msgid="1905018644156819521">"לא מיושם עדיין!"</string>
+    <string name="gsm_umts_network_preferences_dialogtitle" msgid="6356332580813229898">"העדפות רשת GSM/UMTS"</string>
+  <string-array name="gsm_umts_network_preferences_choices">
+    <item msgid="935612021902787683">"GSM/WCDMA (מצב אוטומטי)"</item>
+    <item msgid="8912042051809329533">"WCDMA בלבד"</item>
+    <item msgid="8776934131146642662">"GSM בלבד"</item>
+    <item msgid="4684679567848300935">"GSM/WCDA ‏(WCDMA מועדף)"</item>
+  </string-array>
     <string name="prefer_2g" msgid="8442550937280449639">"השתמש רק ברשתות ‎2G"</string>
     <string name="prefer_2g_summary" msgid="1976491403210690759">"חוסך בצריכת הסוללה"</string>
     <string name="cdma_system_select_title" msgid="5757657769327732833">"בחירת מערכת"</string>
@@ -299,15 +299,19 @@
     <item msgid="1205664026446156265">"אוטומטי"</item>
   </string-array>
     <string name="cdma_subscription_title" msgid="1162564010076763284">"הרשמה ל-CDMA"</string>
+    <string name="cdma_network_preferences_title" msgid="41193174429510391">"העדפות רשת CDMA"</string>
+    <string name="cdma_network_preferneces_summary" msgid="3524451924935793338">"לא מיושם עדיין!"</string>
+    <string name="cdma_network_preferences_dialogtitle" msgid="4548860809290455653">"העדפות רשת CDMA"</string>
+  <string-array name="cdma_network_preferences_choices">
+    <item msgid="3711054371631487248">"CDMA/EvDo"</item>
+    <item msgid="6143696847467859795">"CDMA בלבד"</item>
+    <item msgid="2683555124647197574">"EvDo בלבד"</item>
+  </string-array>
     <string name="cdma_subscription_summary" msgid="2530890766115781140">"החלף בין RUIM/SIM ל-NV"</string>
     <string name="cdma_subscription_dialogtitle" msgid="2699527950523333110">"הרשמה"</string>
   <string-array name="cdma_subscription_choices">
     <item msgid="2258014151300708431">"RUIM/SIM"</item>
     <item msgid="5127722015571873880">"NV"</item>
-  </string-array>
-  <string-array name="cdma_subscription_values">
-    <item msgid="7494167883478914080">"0"</item>
-    <item msgid="6043847456049107742">"1"</item>
   </string-array>
     <string name="cdma_activate_device" msgid="3793805892364814518">"הפעל מכשיר"</string>
     <string name="cdma_lte_data_service" msgid="4255018217292548962">"הגדר שירות נתונים"</string>

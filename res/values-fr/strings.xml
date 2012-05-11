@@ -625,4 +625,13 @@
     <string name="vibrate_on_ring_title" msgid="9197564612065258960">"Mode Vibreur lorsque le téléphone sonne"</string>
     <string name="dtmf_tone_enable_title" msgid="827601042915852989">"Numérotation sonore"</string>
     <string name="preference_category_ringtone" msgid="9007490591910078324">"Sonnerie"</string>
+
+    <!-- Voice quality filter -->
+    <string name="voice_quality_preferences_title">Qualité d\'écoute</string>
+    <string name="voice_quality_summary">Utiliser un filtre audio pour améliorer la qualité d\'écoute</string>
+    <string name="voice_quality_entry_normal">Normal</string>
+    <string name="voice_quality_entry_clear">Claire</string>
+    <string name="voice_quality_entry_crisp">Nette</string>
+    <string name="voice_quality_entry_bright">Vive</string>
+
 </resources>

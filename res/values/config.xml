@@ -115,4 +115,11 @@
 
     <!-- If true, removes the Preferred Network Mode selection from Mobile Network Settings -->	
     <bool name="config_preferred_mode_disable">false</bool>
+
+    <!-- Voice quality filter parameter
+         Set this if your device's libaudio has a parameter to adjust voice quality
+         (don't forget to also overlay to value array in that case).
+         Leave empty to disable the feature. -->
+    <string name="voice_quality_param"></string>
+
 </resources>

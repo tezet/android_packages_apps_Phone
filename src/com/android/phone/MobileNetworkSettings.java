@@ -298,10 +298,6 @@ public class MobileNetworkSettings extends PreferenceActivity
                             R.array.preferred_network_mode_choices_lte_gsm);
                     mButtonPreferredNetworkMode.setEntryValues(
                             R.array.preferred_network_mode_values_lte_gsm);
-                    int settingsNetworkMode = android.provider.Settings.Secure.getInt(
-                            mPhone.getContext().getContentResolver(),
-                            android.provider.Settings.Secure.PREFERRED_NETWORK_MODE,
-                            preferredNetworkMode);
                     mButtonPreferredNetworkMode.setValue(
                             Integer.toString(settingsNetworkMode));
                 }

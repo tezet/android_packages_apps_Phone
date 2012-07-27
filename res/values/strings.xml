@@ -1527,4 +1527,7 @@
     <string name="voice_quality_entry_crisp">Crisp</string>
     <string name="voice_quality_entry_bright">Bright</string>
 
+    <string name="perm_change_mobile_network">Change network (2G/3G)</string>
+    <string name="perm_change_mobile_network_desc">Application with this permission can, at any time, change between 2G data and 3G data. 3G is faster, consumes more battery, and can also cost you more money.</string>
+
 </resources>

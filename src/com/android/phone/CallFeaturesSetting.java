@@ -480,7 +480,7 @@ public class CallFeaturesSetting extends PreferenceActivity
         } else if (preference == mButtonTTY) {
             return true;
         } else if (preference == mButtonVoiceQuality) {
-            return true
+            return true;
         } else if (preference == mButtonNoiseSuppression) {
             int nsp = mButtonNoiseSuppression.isChecked() ? 1 : 0;
             // Update Noise suppression value in Settings database

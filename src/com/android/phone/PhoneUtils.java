@@ -69,6 +69,8 @@ import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.List;
 
+import android.preference.PreferenceManager;
+
 /**
  * Misc utilities for the Phone app.
  */
@@ -339,6 +341,54 @@ public class PhoneUtils {
         return answered;
     }
 
+
+    static Call getCurrentCall(Phone phone) {
+        Call ringing = phone.getRingingCall();
+        Call fg = phone.getForegroundCall();
+        Call bg = phone.getBackgroundCall();
+        if (!ringing.isIdle()) {
+            return ringing;
+        }
+        if (!fg.isIdle()) {
+            return fg;
+        }
+        if (!bg.isIdle()) {
+            return bg;
+        }
+        return fg;
+    }
+
+    static Connection getConnection(Phone phone, Call call) {
+        if (call == null) {
+            return null;
+        }
+
+        if (phone.getPhoneType() == Phone.PHONE_TYPE_CDMA) {
+            return call.getLatestConnection();
+        }
+
+        return call.getEarliestConnection();
+    }
+
+    static class PhoneSettings {
+        static boolean vibOn45Secs(Context context) {
+            return PreferenceManager.getDefaultSharedPreferences(context)
+                       .getBoolean("button_vibrate_45", false);
+        }
+        static boolean vibHangup(Context context) {
+            return PreferenceManager.getDefaultSharedPreferences(context)
+                       .getBoolean("button_vibrate_hangup", false);
+        }
+        static boolean vibOutgoing(Context context) {
+            return PreferenceManager.getDefaultSharedPreferences(context)
+                       .getBoolean("button_vibrate_outgoing", false);
+        }
+        static boolean vibCallWaiting(Context context) {
+            return PreferenceManager.getDefaultSharedPreferences(context)
+                       .getBoolean("button_vibrate_call_waiting", false);
+        } 
+    };
+
     /**
      * Smart "hang up" helper method which hangs up exactly one connection,
      * based on the current Phone state, as follows:
@@ -419,6 +469,7 @@ public class PhoneUtils {
             return false;
         }
     }
+
 
     static boolean hangupActiveCall(Call foreground) {
         if (DBG) log("hangup active call");

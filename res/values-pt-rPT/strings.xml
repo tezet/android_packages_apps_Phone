@@ -616,6 +616,16 @@
     <string name="voicemail_notification_vibrate_when_title" msgid="8361970092063604886">"Vibrar"</string>
     <string name="voicemail_notification_vibarte_when_dialog_title" msgid="5739583146522136440">"Vibrar"</string>
     <string name="voicemail_notification_ringtone_title" msgid="2512535133814478358">"Toque"</string>
+
+    <!-- Voice quality filter -->
+    <string name="voice_quality_preferences_title">Qualidade de voz</string>
+    <string name="voice_quality_summary">Ajuste um perfil para melhorar a qualidade da ligação</string>
+    <!-- Do not remove those, they're used from overlays -->
+    <string name="voice_quality_entry_normal">Normal</string>
+    <string name="voice_quality_entry_clear">Limpa</string>
+    <string name="voice_quality_entry_crisp">Nítida</string>
+    <string name="voice_quality_entry_bright">Brilhante</string>
+
   <string-array name="voicemail_notification_vibrate_when_entries">
     <item msgid="468237575962916558">"Sempre"</item>
     <item msgid="1595097872875714252">"Apenas quando está em silêncio"</item>

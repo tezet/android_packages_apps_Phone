@@ -617,6 +617,18 @@
     <string name="voicemail_notification_vibarte_when_dialog_title" msgid="5739583146522136440">"Vibrar"</string>
     <string name="voicemail_notification_ringtone_title" msgid="2512535133814478358">"Toque"</string>
 
+    <!-- Advanced Settings -->
+    <string name="advanced_setting">Ajustes Avançados</string>
+    <string name="vibrate_outgoing">Vibrar ao atender</string>
+    <string name="vibrate_outgoing_sum">Vibra quando a ligação for atendida</string>
+    <string name="vibrate_45">Vibrar a cada 45 segundos</string>
+    <string name="vibrate_45_sum">Vibra a cada 45 segundos durante a ligação</string>
+    <string name="vibrate_hangup">Vibrar ao desligar</string>
+    <string name="vibrate_hangup_sum">Vibra quando encerra a ligação</string>
+    <string name="vibrate_call_waiting">Vibrar em espera</string>
+    <string name="vibrate_call_waiting_sum">Vibra com ligação em espera</string>
+    <!-- End Advanced Settings -->
+    
     <!-- Voice quality filter -->
     <string name="voice_quality_preferences_title">Qualidade de voz</string>
     <string name="voice_quality_summary">Ajuste um perfil para melhorar a qualidade da ligação</string>

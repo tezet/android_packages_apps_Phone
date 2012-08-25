@@ -638,4 +638,19 @@
     <string name="preferred_network_mode_lte_cdma_evdo_gsm_wcdma_summary">Modo de rede preferencial: LTE / CDMA / EvDo / GSM / WCDMA</string>
     <string name="phone_number_label">Meu número de telefone</string>
     <string name="phone_number_summary">Definir o número de telefone para este dispositivo</string>
+    <string name="advanced_setting">Ajustes Avançados</string>
+    <string name="vibrate_outgoing">Vibrar ao atender</string>
+    <string name="vibrate_outgoing_sum">Vibra quando a ligação for atendida</string>
+    <string name="vibrate_45">Vibrar a cada 45 segundos</string>
+    <string name="vibrate_45_sum">Vibra a cada 45 segundos durante a ligação</string>
+    <string name="vibrate_hangup">Vibrar ao desligar</string>
+    <string name="vibrate_hangup_sum">Vibra quando encerra a ligação</string>
+    <string name="vibrate_call_waiting">Vibrar em espera</string>
+    <string name="vibrate_call_waiting_sum">Vibra com ligação em espera</string>
+    <string name="voice_quality_preferences_title">Qualidade de voz</string>
+    <string name="voice_quality_summary">Ajuste um perfil para melhorar a qualidade da ligação</string>
+    <string name="voice_quality_entry_normal">Normal</string>
+    <string name="voice_quality_entry_clear">Limpa</string>
+    <string name="voice_quality_entry_crisp">Nítida</string>
+    <string name="voice_quality_entry_bright">Brilhante</string>
 </resources>

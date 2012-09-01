@@ -443,9 +443,6 @@ public class CallNotifier extends Handler
         if (PhoneUtils.isRealIncomingCall(state)) {
             startIncomingCallQuery(c);
         } else {
-            if (PhoneUtils.PhoneSettings.vibCallWaiting(mApplication)) {
-                mApplication.vibrate(200,300,500);
-            }
             if (VDBG) log("- starting call waiting tone...");
             if (mCallWaitingTonePlayer == null) {
                 mCallWaitingTonePlayer = new InCallTonePlayer(InCallTonePlayer.TONE_CALL_WAITING);
@@ -800,29 +797,6 @@ public class CallNotifier extends Handler
             // make sure audio is in in-call mode now
             PhoneUtils.setAudioMode(mCM);
 
-
-            Call call = PhoneUtils.getCurrentCall(fgPhone);
-            Connection c = PhoneUtils.getConnection(fgPhone, call);
-            if (VDBG) PhoneUtils.dumpCallState(fgPhone);
-            Call.State cstate = call.getState();
-
-            if (cstate == Call.State.ACTIVE && !c.isIncoming()) {
-                long callDurationMsec = c.getDurationMillis();
-                if (VDBG) Log.v(LOG_TAG, "duration is " + callDurationMsec);
-
-                boolean vibOut = PhoneUtils.PhoneSettings.vibOutgoing(mApplication);
-                if (vibOut && callDurationMsec < 200) {
-                    mApplication.vibrate(100,0,0);
-                }
-
-                boolean vib45 = PhoneUtils.PhoneSettings.vibOn45Secs(mApplication);
-                if (vib45) {
-                    callDurationMsec = callDurationMsec % 60000;
-                    mApplication.start45SecondVibration(callDurationMsec);
-                }
-            }
-
-
             // if the call screen is showing, let it handle the event,
             // otherwise handle it here.
             if (!mApplication.isShowingCallScreen()) {
@@ -1078,14 +1052,6 @@ public class CallNotifier extends Handler
             // Remove Call waiting timers
             removeMessages(CALLWAITING_CALLERINFO_DISPLAY_DONE);
             removeMessages(CALLWAITING_ADDCALL_DISABLE_TIMEOUT);
-        }
-
-        if (c != null) {
-            boolean vibHangup = PhoneUtils.PhoneSettings.vibHangup(mApplication);
-            if (vibHangup && c.getDurationMillis() > 0) {
-                mApplication.vibrate(50, 100, 50);
-            }
-            mApplication.stopVibrationThread();
         }
 
         // Stop the ringer if it was ringing (for an incoming call that

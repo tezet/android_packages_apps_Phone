@@ -1528,17 +1528,6 @@
          [CHAR LIMIT=40] -->
     <string name="preference_category_ringtone">Ringtone</string>
 
-    <!-- Advanced Settings -->
-    <string name="advanced_setting">Advanced Settings</string>
-    <string name="vibrate_outgoing">Vibrate on answer</string>
-    <string name="vibrate_outgoing_sum">Vibrate when an outgoing call is answered</string>
-    <string name="vibrate_45">Vibrate every 45 seconds</string>
-    <string name="vibrate_45_sum">Vibrates at the 45 second mark of every minute during outgoing calls</string>
-    <string name="vibrate_hangup">Vibrate on hangup</string>
-    <string name="vibrate_hangup_sum">Vibrate when a call has ended</string>
-    <string name="vibrate_call_waiting">Vibrate call waiting</string>
-    <string name="vibrate_call_waiting_sum">Vibrate on call waiting</string>
-
     <!-- Voice quality filter -->
     <string name="voice_quality_preferences_title">Voice quality</string>
     <string name="voice_quality_summary">Voice profile is currently set to: %s</string>

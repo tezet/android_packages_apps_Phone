@@ -181,6 +181,14 @@
             android:targetClass="com.android.phone.CdmaCallOptions"/>
     </PreferenceScreen>
 
+    <ListPreference
+	        android:key="button_voice_quality_key"
+        android:title="@string/voice_quality_preferences_title"
+        android:summary="@string/voice_quality_summary"
+        android:entries="@array/voice_quality_entries"
+        android:entryValues="@array/voice_quality_values"
+        android:dialogTitle="@string/voice_quality_preferences_title"/>
+
     <PreferenceScreen
         android:title="@string/dialer_ui_settings_title"
         android:summary="@string/dialer_ui_settings_summary"
@@ -191,35 +199,6 @@
             android:targetClass="com.android.contacts.preference.DialpadPreferenceActivity"/>
     </PreferenceScreen>
 
-  <PreferenceCategory android:key="pref_advanced_settings" android:title="@string/advanced_setting">
-    <ListPreference
-	android:key="button_voice_quality_key"
-        android:title="@string/voice_quality_preferences_title"
-        android:summary="@string/voice_quality_summary"
-        android:entries="@array/voice_quality_entries"
-        android:entryValues="@array/voice_quality_values"
-        android:dialogTitle="@string/voice_quality_preferences_title"/>
-    <CheckBoxPreference
-        android:key="button_vibrate_outgoing"
-        android:title="@string/vibrate_outgoing"
-        android:persistent="true"
-        android:summary="@string/vibrate_outgoing_sum"/>
-    <CheckBoxPreference
-        android:key="button_vibrate_45"
-        android:title="@string/vibrate_45"
-        android:persistent="true"
-        android:summary="@string/vibrate_45_sum"/>
-    <CheckBoxPreference
-        android:key="button_vibrate_hangup"
-        android:title="@string/vibrate_hangup"
-        android:persistent="true"
-        android:summary="@string/vibrate_hangup_sum"/>
-    <CheckBoxPreference
-        android:key="button_vibrate_call_waiting"
-        android:title="@string/vibrate_call_waiting"
-        android:persistent="true"
-        android:summary="@string/vibrate_call_waiting_sum"/>
-  </PreferenceCategory>
 
 
 </PreferenceScreen>

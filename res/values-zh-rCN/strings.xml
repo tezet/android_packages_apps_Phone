@@ -655,15 +655,12 @@
   </string-array>
 
     <string name="voice_quality_preferences_title">音质</string>
-    <string name="voice_quality_summary">设置一个音频配置文件以增强听觉体验</string>
+    <string name="voice_quality_summary">当前设置的音频配置文件 : %s</string>
 
     <string name="voice_quality_entry_normal">标准</string>
     <string name="voice_quality_entry_clear">平衡</string>
     <string name="voice_quality_entry_crisp">明亮</string>
     <string name="voice_quality_entry_bright">高亮</string>
-
-    <string name="noise_suppression_title">噪声抑制</string>
-    <string name="noise_suppression_summary">对所有通话启用噪声抑制</string>
 
     <string name="ringtone_title" msgid="6374978286202084684">"手机铃声"</string>
     <string name="vibrate_on_ring_title" msgid="9197564612065258960">"响铃时振动"</string>
@@ -673,8 +670,8 @@
     <string name="perm_change_mobile_network_desc">获得该权限的应用程序可以在任何时候在2G/3G移动网络之间切换。3G 网络的速度会更快快，但也会消耗更多的电量并且可能消耗您更多的金钱。</string>
 
     <!-- Noise suppression -->
-    <string name="noise_suppression_title">噪音镇压</string>
-    <string name="noise_suppression_summary">呼叫时启用噪音镇压</string>
+    <string name="noise_suppression_title">噪声抑制</string>
+    <string name="noise_suppression_summary">对所有通话启用噪声抑制</string>
     <!-- End Noise suppression -->
 
     <string name="phone_number_label">我的电话号码</string>

@@ -303,7 +303,7 @@
     <item msgid="176474317493999285">"Только домашняя"</item>
     <item msgid="1205664026446156265">"Автоматически"</item>
   </string-array>
-    <string name="cdma_subscription_title" msgid="1162564010076763284">"CDMA subscription"</string>
+    <string name="cdma_subscription_title" msgid="1162564010076763284">"Подписка CDMA"</string>
     <string name="cdma_network_preferences_title" msgid="41193174429510391">"Параметры сети CDMA"</string>
     <string name="cdma_network_preferneces_summary" msgid="3524451924935793338">"Еще не реализовано!"</string>
     <string name="cdma_network_preferences_dialogtitle" msgid="4548860809290455653">"Настройки сети CDMA"</string>
@@ -651,6 +651,10 @@
 
     <!-- Advanced Phone Settings -->
     <string name="advanced_setting">Дополнительные настройки</string>
+    <string name="keep_proximity_sensor_on">Не выключать датчик приближения</string>
+    <string name="keep_proximity_sensor_on_sum">Не выключать датчик приближения во время разговора с использованием гарнитуры</string>
+    <string name="lockscreen_if_call_ends_with_screenoff">Блокировка по окончании разговора</string>
+    <string name="lockscreen_if_call_ends_with_screenoff_sum">Заблокировать экран после окончания разговора</string>
     <string name="vibrate_outgoing">Вибрировать при ответе</string>
     <string name="vibrate_call_waiting">Вибрировать при ожидании</string>
     <string name="vibrate_call_waiting_sum">Вибрировать при ожидании на линии</string>
@@ -658,5 +662,4 @@
     <string name="vibrate_hangup_sum">Вибрировать когда разговор окончен</string>
     <string name="vibrate_45">Вибрировать каждые 45с</string>
     <string name="vibrate_45_sum">Вибрировать каждые 45 секунд в течении исходящего звонка</string>
-
 </resources>
